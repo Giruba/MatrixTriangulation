@@ -6,7 +6,10 @@ namespace TriangularMatrices
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Triangular Matrices!");
+            Console.WriteLine("---------------------");
+            new ProcessInput().GetMatrix();
+            Console.ReadLine();
         }
     }
 }
